@@ -8,9 +8,9 @@
 
 a = input("Mis on sinu nimi? ")
 print("Tere,", a)
-b = input("Kus sa elad? ")
-D = ("Saaremaal")
-if (b == D) :
+b = input("Kus sa elad? ").lower()
+
+if "saaremaa" in b :
     print("Väga äge!")
 else:
     print("Alrighty")

@@ -13,3 +13,24 @@
 # https://www.w3schools.com/python/python_lists.asp
 
 
+list = ["kirss", "banaan", "pirn"]
+print(list)
+print(list[0])
+list.append("õun")
+print(list[-1])
+list[1] = "apelsin"
+print(list)
+list[3] = "ploom"
+print(list)
+size = len(list)
+# print(size)
+list.remove("õun")
+print(size)
+check = input("kas on listis? ")
+if check in list:
+    print("on listis")
+else:
+    print("ei ole listis")
+list.reverse
+print(list)
+print(sorted(list))

@@ -3,3 +3,5 @@
 # (ext - extension - faili laiend) ja prindib välja laiendi (“ext”). (str.split)
 
 
+filename = input("kirjuta faili nimi: ")
+print("faili laiendiks on", filename.split(".")[-1])

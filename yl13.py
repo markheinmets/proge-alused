@@ -7,3 +7,11 @@
 # (sõne kui list, mitmemõõtmeline list - multi dimensional)
 
 
+animal = input("Mis on sinu lemmikloom? ")
+print(animal[0])
+mylist = ["koer", "kass", "ahv"]
+print(mylist)
+mylist.append(animal)
+print(mylist)
+print(mylist[-1][-2:])
+
