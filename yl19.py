@@ -10,9 +10,9 @@ vowl = 0
 vowls = "aeiouõäöü"
 
 # Loome tsükli, mis käib läbi iga täht tekstis
-for taht in text:
+for letter in text:
     # Kontrollime, kas täht on täishäälik
-    if taht.lower() in vowls:
+    if letter.lower() in vowls:
         vowl += 1
 
 # Väljastame täishäälikute arvu
