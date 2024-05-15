@@ -8,7 +8,7 @@
 import random
 
 # Arvuti mõtleb välja juhusliku arvu vahemikus 0 kuni 100
-random_number = random.randint(0, 100)
+random_number = random.randint(0, 101)
 
 # Alguses pole kasutaja veel õiget arvu ära arvanud
 user_guess = None
